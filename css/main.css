@@ -1,0 +1,48 @@
+.main_col {margin: -20px 0 0 -20px;}
+
+.img_camera {width: 100%;
+             border-bottom: 4px solid red;
+             margin: 0 0 40px 0;}
+
+.main_h>a, h3 {text-decoration: none; color: red;}
+
+.main_h:hover>a,
+.main_subh>a:hover {text-decoration: underline;
+                    color: #337ab7;}
+
+.main_subh>a {color: black;}
+
+.li_news {font-size: 18px;
+          padding: 15px;
+          font-weight: bold;
+          list-style: none;}
+
+.li_news>a {color: black;}
+
+.li_news::before {content: "⁃"; color: red;
+                  display: inline-block; width: 1.5em;
+                  margin-left: -2em}
+
+.btn-default {background-color: #e5e5e5;
+              border-color: black;
+              font-size: 16px;
+              width: 100%;
+              line-height: 50px;
+              padding: 1px 6px;
+              list-style: none;
+              color: #757575;}
+
+.btn-default:hover {opacity: 0.9; color: #ccc;}
+
+.ul_news {background-color: rgb(247,247,247);
+          margin: 0;
+          padding: 0;}
+
+.sponsor {background-color: #e6ffff; padding-bottom: 160px;}
+
+.sponsor_insight>a {color: #00B7FF;
+                    font-size: 22px;}
+
+.sponsor_insight {margin: 20px 0 10px;}
+
+.main_ferguson {padding: 0 30px 25px;}
